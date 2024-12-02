@@ -1,5 +1,4 @@
 public class AccSuperRing implements Accessory{
-
     @Override
     public void applyEffect(RPGCharacter character) {
         if (character instanceof RPGMage mage) {
@@ -8,5 +7,4 @@ public class AccSuperRing implements Accessory{
             System.out.println("Super Ring can only be used by a Mage!.");
         }
     }
-
 }

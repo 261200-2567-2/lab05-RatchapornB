@@ -1,5 +1,4 @@
 public class AccShield implements Accessory{
-
     @Override
     public void applyEffect(RPGCharacter character) {
         if (character instanceof RPGWarrior warrior) {
@@ -8,5 +7,4 @@ public class AccShield implements Accessory{
             System.out.println("Shield can only be used by a Warrior!.");
         }
     }
-
 }

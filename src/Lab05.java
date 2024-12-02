@@ -11,7 +11,6 @@ public class Lab05 {
         Accessory superRing = new AccSuperRing();
         Accessory talisman = new AccTalisman();
 
-
         warrior.attack(shield);
         warrior.attack(sword);
         warrior.equipAccessory(sword);

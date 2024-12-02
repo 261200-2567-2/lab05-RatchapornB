@@ -55,7 +55,6 @@ public class RPGWarrior implements RPGCharacter {
         accessory.applyEffect(this);
     }
 
-
     public void increaseStrength(int amount) {
         this.strength += amount;
         System.out.println(name + "'s strength increased to " + strength);

@@ -1,5 +1,4 @@
 public class AccStaff implements Accessory{
-
     @Override
     public void applyEffect(RPGCharacter character) {
         if (character instanceof RPGMage mage) {
